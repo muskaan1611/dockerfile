@@ -1,0 +1,6 @@
+FROM openjdk:latest
+WORKDIR /
+ADD webgoat-2023.4.jar webgoat-2023.4.jar
+EXPOSE 8080
+CMD java -jar webgoat-2023.4.jar
+
